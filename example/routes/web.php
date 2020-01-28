@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('profile/{profile}', 'Profilescontroller@show');
+Route::get('posts/{post}-{slug}', 'Postscontroller@show');
